@@ -7,8 +7,6 @@ Original file is located at
 
 # **Project Python Foundations: FoodHub Data Analysis**
 
-**Marks: 60**
-
 ### **Context**
 
 The number of restaurants in New York is increasing day by day. Lots of students and busy professionals rely on those restaurants due to their hectic lifestyles. Online food delivery service is a great option for them. It provides them with good food from their favorite restaurants. A food aggregator company FoodHub offers access to multiple restaurants through a single smartphone app.
@@ -35,10 +33,9 @@ The data contains the different data related to a food order. The detailed data 
 * food_preparation_time: Time (in minutes) taken by the restaurant to prepare the food. This is calculated by taking the difference between the timestamps of the restaurant's order confirmation and the delivery person's pick-up confirmation.
 * delivery_time: Time (in minutes) taken by the delivery person to deliver the food package. This is calculated by taking the difference between the timestamps of the delivery person's pick-up confirmation and drop-off information
 
-### **Let us start by importing the required libraries**
+### **importing the required libraries**
 """
 
-# Commented out IPython magic to ensure Python compatibility.
 # import libraries for data manipulation
 import numpy as np
 import pandas as pd
@@ -47,7 +44,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-# Command to display graphs
+# command to display graphs
 # %matplotlib inline
 
 # import foodhub_order.csv file as dataset
@@ -159,7 +156,6 @@ round(df['rating'].value_counts(normalize = True), 2)
 plt.style.use('ggplot')
 
 """### **Order ID**
-
 """
 
 # creating a bar chart to demonstrate 'order_id' distributions
@@ -653,7 +649,7 @@ print(28.34 - 22.47)
 *   The mean delivery time on weekdays is 28.34 minutes and on weekends 22.47 minutes.
 *   The mean delivery time of orders varies by 5.87 minutes during weekdays and weekends.
 
-### Conclusion and Recommendations
+### **Conclusion and Recommendations**
 
 ### **Question 17:** What are your conclusions from the analysis? What recommendations would you like to share to help improve the business? (You can use cuisine type and feedback ratings to drive your business recommendations.) [6 marks]
 
@@ -669,7 +665,7 @@ print(28.34 - 22.47)
 
 ### **Recommendations:**
 
-*  Ensuring that customers provide ratings of orders for accuracy of the data since 39% of orders were not rated. Revisiting rating data for any mistakes to fill in the missing values may also help decrease the 'not given' total values.
+*   Ensuring that customers provide ratings of orders for accuracy of the data since 39% of orders were not rated. Revisiting rating data for any mistakes to fill in the missing values may also help decrease the 'not given' total values.
 *   Uncover what incentivizes quicker deliveries to customers as order costs increases and preparation time increases. Only 11% of orders take greater than 60 minutes to get delivered upon order placement. However, the mean order delivery time is 24.16 minutes. Try to decrease the delivery time. The quicker the delivery, the more likely a customer is to reorder in the future.
 *   Consider adding beef products to increase orders, as meat-centered restaurants like Shake Shack and The Meatball Shop demonstrate a higher favorability with Shake Shack and The Meatball Shop being the top two restaurants where customers order the most.
 *   To attract and retain customers, add more American cuisine as it is the most preferred cuisine type regardless of the day of the week. On weekdays, out of a total of 851 orders, 169 orders are for American cuisine (most popular cuisine type). Even on weekends, out of 1,351 orders, 415 orders are for American cuisine.
