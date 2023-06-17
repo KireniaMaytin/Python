@@ -10,4 +10,6 @@ Data findings revealed a weak correlation between order costs, preparation times
 ensuring that customers complete ratings for data validity, increasing meat-related menu items as they are the most frequently ordered by customers, and incentivizing 
 customers to increase turnover through a rewards system or coupons.
 
+**Link to project**: https://colab.research.google.com/drive/1NwJ-AyCmVc6N5onmho6t6bJTA43sRC4C
+
 Thank you for visiting!
