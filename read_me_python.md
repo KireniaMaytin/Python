@@ -1,6 +1,6 @@
 # Python
 
-Welcome! These are my Python projects. 
+Welcome to my Python projects!
 
 **FoodHub Project**
 
