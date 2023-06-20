@@ -1,6 +1,6 @@
 # Python
 
-Welcome to my Data Analyst portfolio! These are my Python projects. 
+Welcome! These are my Python projects. 
 
 **FoodHub Project**
 
